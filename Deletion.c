@@ -7,8 +7,12 @@
      int a[6] = {1,3,5,7,34 ,99};
 
      int pos , i , value , size = 6;
+     for(i = 0 ; i<size ; i++){
+        printf("%d\t", a[i]);
 
-     printf("Which Position want to delete?");
+     }
+     printf("\n");
+     printf("Which Position want to delete? ");
      scanf("%d" , &pos);
 
      if(pos > size  || pos < 0){

@@ -8,6 +8,10 @@ int main()
     int i,size = 7,item;
     int start = 0, last =  size - 1;
 
+    for(int i = 0; i<10 ; i++){
+    printf("%d\t", arr[i]);
+    }
+
     printf("Which Item Want to Search? ");
     scanf("%d", &item);
     while(start <= last)
@@ -15,7 +19,7 @@ int main()
             int middle = (start + last) / 2;
             if(a[middle] == item)
             {
-                printf("Item found at Position: %d", middle+1);
+                printf("Item found at Position: %d", middle);
                 return 0;
             }
             else if(a[middle] < item)

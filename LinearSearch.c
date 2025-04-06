@@ -8,6 +8,10 @@
      int arr[6] = {2,3,5,7,4,8};
      int i , item , size = 6;
 
+     for(i = 0 ; i<size ; i++){
+        printf("%d\t",arr[i]);
+     }
+     printf("\n");
      printf("Which Array Element? ");
      scanf("%d/n", &item);
 

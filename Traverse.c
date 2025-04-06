@@ -1,6 +1,5 @@
-
- // Rijaon Rashid Opar
- // CSE-2302029019
+// Rijaon Rashid Opar
+// CSE-2302029019
 
  #include<stdio.h>
  int main()

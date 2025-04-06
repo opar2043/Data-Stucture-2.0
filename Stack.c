@@ -2,7 +2,7 @@
  // CSE-2302029019
 
  #include<stdio.h>
- int stack[], top = -1;
+ int stack[10], top = -1;
  void push(int x)
  {
      top = top + 1;
@@ -32,6 +32,12 @@
      return -1;
  }
 
+  void printArr(){
+  for(int i = 0; i<10 ; i++){
+    printf("%d\t", stack[i]);
+  }
+ }
+
  int main()
  {
     push(2);
@@ -43,6 +49,6 @@
     peek();
     push(40);
     push(55);
-
+    printArr();
      return 0;
  }
