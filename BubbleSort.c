@@ -7,11 +7,6 @@
      int a[7] = {2,3,5,7,4,8,1};
      int i ,j  , temp , size = 7;
 
-       for(int i = 0; i<size ; i++){
-
-         printf(" %d\t", a[i]);
-       }
-
      for(i = 0 ; i < size ; i++){
         for (j = 0; j < size - 1 - i; j++) {
              if(a[j] > a[j+1]){

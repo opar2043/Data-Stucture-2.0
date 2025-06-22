@@ -9,7 +9,7 @@ int main()
     int start = 0, last =  size - 1;
 
     for(int i = 0; i<10 ; i++){
-    printf("%d\t", arr[i]);
+      printf("%d\t", arr[i]);
     }
 
     printf("Which Item Want to Search? ");
