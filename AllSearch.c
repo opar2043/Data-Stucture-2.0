@@ -142,7 +142,7 @@ int main()
 
     if(binary == 0)
     {
-        printf("Item Not Found");
+        printf("No Element Found");
     }
 
     return 0;
