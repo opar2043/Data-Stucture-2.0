@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include<math.h>
 
-// 26x1 + 2x1 + 2x3 = 12.6
-//
+// 26x1 + 2x2 + 2x3 = 12.6
+// 3x1 + 27x2 + x3 = -14
+// 2x1 + 3x2 + 17x3 = 6
 
 double fx1(double x2 , double x3 )
 {
     return (12 - 2 * x2 - 2 *x3 ) / 26 ;
 }
-
 
 double fx2 (double x1 , double x3)
 {
@@ -19,7 +19,6 @@ double fx3 (double x1 , double x2)
 {
     return (6 - 2*x1 - 3*x2) / 17 ;
 }
-
 
 int main()
 {

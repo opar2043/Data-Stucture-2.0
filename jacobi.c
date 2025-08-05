@@ -36,7 +36,7 @@ int main()
         {
             break ;
         }
-        // Update ALL variables at the end (Jacobi)
+
         x1 = new_x1;
         x2 = new_x2;
         x3 = new_x3;
